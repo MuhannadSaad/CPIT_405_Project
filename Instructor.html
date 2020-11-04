@@ -1,0 +1,39 @@
+
+<html lang="en">
+
+    <head> 
+        <title> QuizSite  </title>
+        <link href="main.css" rel="stylesheet">
+        <link rel="icon" href="images/icon.png" type="image/gif" >
+    </head>
+    
+    <body>
+<h1 class="centerText heading">Instructor Page</h1>
+
+        <div id="parent">
+
+<div class="insDiv" id="createNewExam" onclick="createNewQuiz()">
+    <div class="centerInDiv">Create New Quiz</div> 
+</div>
+
+<div class="insDiv" id="history" onclick="prevQuiz()">
+    <div class="centerInDiv">Previous Quiz</div> 
+</div>
+
+</div>
+<a class="font1_2 centerText" href="index.html">Back to home page</a>
+
+    </body> 
+</html>  
+
+<script>
+
+function createNewQuiz() {
+    window.location.href = "CreateQuiz.html";
+}
+
+function prevQuiz() {
+    window.location.href = "PreviousQuiz.html";
+}
+
+</script>
